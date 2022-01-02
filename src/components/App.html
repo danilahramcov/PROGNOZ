@@ -1,0 +1,14 @@
+<div className="conteiner">
+    <div className="infoTabs">
+        <div className="infoNow">
+            <Form weatherMethod={this.gettingWeather} />
+            <div className="infoNow-name">
+
+            </div>
+
+            <div className="infoNow-last">
+                <Weather temp={this.state.temp} city={this.state.city} country={this.state.country} sunrise={this.state.sunrise} sunset={this.state.sunset} pressure={ this.state.pressure} error={this.state.error} />
+            </div>
+        </div>
+    </div>
+</div>
